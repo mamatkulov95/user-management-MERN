@@ -9,7 +9,7 @@ require('dotenv').config()
 
 connectDBase();
 app.use(session({
-  secret: 'my-secret-key', // Replace with a secret key of your choice
+  secret: 'my-secret-key',
   resave: false,
   saveUninitialized: false
 }));

@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.ts",
-    "dev": "nodemon server.ts"
+    "dev": "nodemon server.ts",
+    "build": "npm i"
   },
   "author": "Ma'rufjon Mamatkulov",
   "license": "ISC",
